@@ -1,0 +1,4 @@
+repos:
+  fakebook:
+    path: /home/vedang/git/Fakebook-JDBC
+    index: /home/vedang/rag-playground/chroma_index
