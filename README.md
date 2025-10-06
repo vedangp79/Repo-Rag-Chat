@@ -1,6 +1,6 @@
 # 🧠 Repo RAG Chat — Demo
 
-**Live Demo:** https://huggingface.co/spaces/<your-handle>/<space-name>  
+**Live Demo:** https://huggingface.co/spaces/vedangp79/repo-rag-chat 
 **Source Code:** https://github.com/vedangp79/Repo-Rag-Chat  
 
 A lightweight **Retrieval-Augmented Generation (RAG)** chatbot that answers questions about a codebase using **LangChain**, **Chroma**, and **OpenAI**.  
