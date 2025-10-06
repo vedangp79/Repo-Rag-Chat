@@ -71,7 +71,6 @@ def ingest_folder(source_dir: str, persist_dir: str = "./chroma_index",
         embedding=embeddings,
         persist_directory=persist_dir
     )
-    vectordb.persist()
     print(f"✅ Indexed {len(chunks)} chunks from {len(docs)} files into {persist_dir}")
 
 if __name__ == "__main__":

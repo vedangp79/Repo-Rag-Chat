@@ -2,6 +2,5 @@ __pycache__/
 *.pyc
 .venv/
 .streamlit/
-chroma_index/
 .env
 .DS_Store

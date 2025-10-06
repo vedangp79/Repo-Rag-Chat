@@ -1,9 +1,23 @@
 streamlit==1.36.0
 openai==1.40.2
+httpx<0.28
 tiktoken==0.7.0
+
+# LangChain core + integrations
 langchain==0.2.12
 langchain-community==0.2.11
 langchain-openai==0.1.22
-langchain-chroma==0.1.1
-chromadb==0.5.3
-pysqlite3-binary==0.5.2
+langchain-text-splitters==0.2.2
+
+# Chroma vector store + LC wrapper
+chromadb==0.5.4
+langchain-chroma==0.1.2
+
+# UI 
+gradio>=4.0.0
+
+# YAML support 
+pyyaml==6.0.2
+
+# SQLite shim 
+pysqlite3-binary
